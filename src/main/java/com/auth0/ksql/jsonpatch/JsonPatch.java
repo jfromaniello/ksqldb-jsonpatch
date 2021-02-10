@@ -17,7 +17,7 @@ import com.github.fge.jsonpatch.diff.JsonDiff;
  * Usage in KSQL: `MULTIPLY(col1, col2)`.
  */
 @UdfDescription(
-  name = "ARRAY_JSONPATCH",
+  name = "JSONPATCH",
   description = "Generates a json patch from two jsons"
 )
 public class JsonPatch {
